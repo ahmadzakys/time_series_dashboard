@@ -14,13 +14,13 @@ from prophet.plot import plot_plotly, plot_components_plotly, plot_cross_validat
 #####-----Create a Dash app instance-----#####
 app = dash.Dash(
     external_stylesheets=[dbc.themes.LITERA],
-    name = 'CTS Performance'
+    name = 'CTS Time Series Dashboard'
     )
-app.title = 'CTS Performance Dashboard'
+app.title = 'CTS Time Series Dashboard'
 
 ##-----Navbar
 navbar = dbc.NavbarSimple(
-    brand="CTS Performance Dashboard",
+    brand="CTS Time Series Dashboard",
     brand_href="#",
     color="#242947",
     dark=True,
